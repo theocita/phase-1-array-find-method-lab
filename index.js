@@ -1,1 +1,3 @@
-// code your solution here
+function superbowlWin(record){
+ record.find(rec => rec.result === "W");
+}
